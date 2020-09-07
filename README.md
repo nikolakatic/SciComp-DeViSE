@@ -12,6 +12,7 @@ Searching over dataset can be done in different ways:
 * image -> labels
 * image -> images
 
+Fast queries are facilitated by [Annoy](https://github.com/spotify/annoy) library which implements an [approximate nearest neighbor](https://en.wikipedia.org/wiki/Nearest_neighbor_search#Approximate_nearest_neighbor) search algorithm.
 
 ### Resources and links
 
