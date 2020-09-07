@@ -22,4 +22,4 @@ Other resources covering the same topic:
 
 * <https://medium.com/@fpingham/devise-a-deep-visual-semantic-embedding-be2fd605de05>
 * <https://www.pyimagesearch.com/2017/03/20/imagenet-vggnet-resnet-inception-xception-keras/>
-* [Jeremy Howard](https://medium.com/@jeremyphoward)'s [lecture](https://www.youtube.com/watch?v=tY0n9OT5_nA&feature=youtu.be&t=1h55m23s) where he explains devise approach
+* [Jeremy Howard](https://medium.com/@jeremyphoward)'s [lecture](https://www.youtube.com/watch?v=tY0n9OT5_nA&feature=youtu.be&t=1h55m23s) where he explains DeViSE approach
