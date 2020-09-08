@@ -14,6 +14,10 @@ Searching over dataset can be done in different ways:
 
 Fast queries are facilitated by [Annoy](https://github.com/spotify/annoy) library which implements an [approximate nearest neighbor](https://en.wikipedia.org/wiki/Nearest_neighbor_search#Approximate_nearest_neighbor) search algorithm.
 
+### Demo
+
+To see results without needing to download datasets and run everything, you can download `semantic-image-search_with-all-output-shown.html` and its corresponding directory `semantic-image-search_with-all-output-shown_files`. That way you can view complete execution of the attached notebook `semantic-image-search.ipynb`.
+
 ### Resources and links
 
 You can download training dataset by using `get-dataset.py`. Dataset is under (CC BY 3.0) licence and it's available [here](https://vision.cs.uiuc.edu/pascal-sentences/). This dataset is also used by [Emmanuel Ameisen](https://mlpowered.com/about/) in his [QCon 2018 talk](https://www.infoq.com/presentations/semantic-search-engine/) where he discusses DeViSE paper.
