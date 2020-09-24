@@ -18,9 +18,13 @@ Fast queries are facilitated by [Annoy](https://github.com/spotify/annoy) librar
 
 To see results without needing to download datasets and run everything, you can download `semantic-image-search_with-all-output-shown.html` and its corresponding directory `semantic-image-search_with-all-output-shown_files`. That way you can view complete execution of the attached notebook `semantic-image-search.ipynb`.
 
+### Evaluation
+
+We used metrics described in original paper - **flat hit@k** and **hierarchical precision@k**. The results can be found in [final_versions](./final_versions/) directory. As it can be observed, actual results were sometimes better than what simple metrics could tell. A good example is an excerpt from [this](./final_versions/semantic-image-search-FINAL-30epoch.ipynb) Jupyter notebook: `label 'cow' not found in ['cows', 'calves', 'ailment', 'goose', 'cheese']`.
+
 ### Resources and links
 
-You can download training dataset by using `get-dataset.py`. Dataset is under (CC BY 3.0) licence and it's available [here](https://vision.cs.uiuc.edu/pascal-sentences/). This dataset is also used by [Emmanuel Ameisen](https://mlpowered.com/about/) in his [QCon 2018 talk](https://www.infoq.com/presentations/semantic-search-engine/) where he discusses DeViSE paper.
+You can download training dataset by using `get-dataset.py`. Dataset is under (CC BY 3.0) licence and it's available [here](https://vision.cs.uiuc.edu/pascal-sentences/). This dataset is also used by [Emmanuel Ameisen](https://mlpowered.com/about/) in his [QCon 2018 talk](https://www.infoq.com/presentations/semantic-search-engine/) where he discusses DeViSE paper. For evaluation purposes we split multiword categories with underscores (e.g. pottedplant -> potted_plant).
 
 Other resources covering the same topic:
 
